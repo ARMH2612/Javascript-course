@@ -1,11 +1,14 @@
-const author = {
+const psot = {
     title: '',
     body:'',
     author: '',
-    views:'',
-    comments:{
+    views:10,
+    comments:[{
         author: '',
         body: ''
-    },
-    isLived: ''
+    },{
+        author: '',
+        body: ''
+    }],
+    isLived: true
 }
